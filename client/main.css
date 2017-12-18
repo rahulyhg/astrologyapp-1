@@ -23,15 +23,11 @@
     background-color: rgb(172, 169, 169);
 }
 
-.settings {
-   
-}
 
 .bt{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(106, 106, 138);
     color: white;
 }
 
@@ -51,4 +47,36 @@
 .posit {
     margin-left: 200px;
     margin-top: 30px;
+}
+.ff {
+    position: absolute;
+    bottom: 0px;
+    height: 80px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    
+}
+
+.body {
+    position: absolute;
+    bottom: 200px;
+    top: 200px;
+    left: 0px;
+    right: 0px;
+    overflow: auto;
+}
+
+.ic {
+    
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 5px;
+    color: white;
+    
+}
+
+.ii {
+    color: white;
 }
