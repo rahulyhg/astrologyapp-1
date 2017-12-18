@@ -6,28 +6,6 @@
     left: 0;
 }
 
-#blaze-root {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    
-}
-
-.body{
-    bottom: 80px;
-    top: 80px;
-    overflow-y: auto;
-}
-
-.header .footer{
-    height:80px;
-}
-
-.body .footer{
-    position: absolute;
-    width: 100%;
-}
-
 #btn {
     margin-bottom: 20px;
 }
@@ -36,4 +14,41 @@
     margin-bottom: 20px;
 }
 
+.login{
+    font-family: Verdana;
+    color: #fff;
+    font-size: 20px;
+    background-size: 50px;
+    width: 30%;
+    background-color: rgb(172, 169, 169);
+}
 
+.settings {
+   
+}
+
+.bt{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(106, 106, 138);
+    color: white;
+}
+
+.adj{
+    margin-top: 50px;
+}
+
+.part {
+    background-color: rgb(106, 106, 138);
+}
+
+.bb {
+    color: black;
+    font-size: 40px;
+}
+
+.posit {
+    margin-left: 200px;
+    margin-top: 30px;
+}

@@ -5,7 +5,11 @@ import { Meteor } from 'meteor/meteor';
 
 import './main.html';
 
+Accounts.ui.config({
+  passwordSignupFields: 'USERNAME_AND_EMAIL'
+});
 
+//update profile
 Template.profile.events({
  'click #btn':function(){
    console.log('clicked');
@@ -14,8 +18,6 @@ Template.profile.events({
        console.log(err);
      } else {
        console.log(res);
-      // $('#test').html(res[1].username);
-      // console.log('Data:', res[2].username);
        for(i=0; i<res.length; i++){
          var bla = res[3].username;
         $('#test').html(bla);
@@ -26,13 +28,13 @@ Template.profile.events({
  }
 });
 
-Template.profile.helpers({
-  stuff: function(){
-    return Meteor.call('getData');
-  },
-  test: function(){
-    return "hello there";
-  }
+Template.sidebar.events({
+  'click .button-collapse': function(){
+    $(".button-collapse").sideNav();
+  } 
+  
 });
+
+
 
 
